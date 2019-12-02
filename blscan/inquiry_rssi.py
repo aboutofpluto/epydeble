@@ -122,7 +122,7 @@ def device_inquiry_with_rssi(devices, sock):
     # restore old filter
     sock.setsockopt(bluez.SOL_HCI, bluez.HCI_FILTER, old_filter)
 
-def get_devices_rssi(devices):
+def get_rssi_for_devices(devices):
     dev_id = 0
     sock = bluez.hci_open_dev(dev_id)
     mode = read_inquiry_mode(sock)
