@@ -17,3 +17,6 @@ The code currently provides two simple scripts:
 
 An devices.json file is provided as an example.
 The bluetooth code in `blscan` uses PyBluez library.
+
+
+Workers: Yacine, Arun
